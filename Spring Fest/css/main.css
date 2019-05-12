@@ -1,0 +1,172 @@
+.home{
+	background-image: url('../img/background-images-for-websites-3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hd{
+	margin: 0px auto;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	background-color: #0060fc;
+}
+
+.UA{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.UA_1{
+	border-radius: 50%;
+	border: 8px solid #001f51;
+}
+
+.button{
+	
+	text-decoration: none;
+		
+}
+
+.butt{
+
+	text-align: center;
+	background-color: #0060fc;
+	border:none;
+	font-size: 30px;
+	cursor: pointer;
+	padding: 20px;
+	border-radius: 8px;
+	margin: 98px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+
+.butt:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.75),0 17px 50px 0 rgba(0,0,0,0.75);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.bg {
+  	background-image: url("../img/cup-man-achievement-success-honor_1150-1719.jpg");
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  
+}
+
+.exam{
+	margin: 60px;
+	font-family: calibri;
+	font-size: 35px;
+	padding: 10px;
+}
+
+.acads{
+	background-image: url('../img/Education.jpg');
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+.cont{
+	background-image: url('../img/background-618226_1280.png');
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+.gmail{
+	display: inline-block;
+	position:absolute;
+	top: 150px;
+	left: 10%;
+	width: 1000px;
+}
+
+.gmail img{
+	float: left;
+}
+
+.gmail p{
+	margin-top: 6px;
+	margin-left: 100px;
+	font-size: 35px;
+	font-family: calibri;
+}
+
+.app{
+	display: inline-block;
+	position:absolute;
+	top: 250px;
+	left: 10%;
+	width: 1000px;
+}
+
+.app img{
+	float: left;
+}
+
+.app p{
+	margin-top: 6px;
+	margin-left: 100px;
+	font-size: 35px;
+	font-family: calibri;
+}
+
+.fb img{
+	position: absolute;
+	top:403px;
+	left: 30%;
+	padding: 20px;
+}
+
+.insta img{
+	position: absolute;
+	top:403px;
+	left: 45%;
+	padding: 20px;
+}
+
+.linkedin img{
+	position: absolute;
+	top:403px;
+	left: 60%;
+	padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: inline-block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: calibri;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #000000;
+}
